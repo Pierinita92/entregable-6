@@ -1,0 +1,63 @@
+.navbar {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  gap: 5px;
+  text-decoration: none;
+  padding: 2px 0 10px 0;
+  background-image: url(/public/bg-6.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: rgba(26, 23, 23, 0.938);
+}
+
+
+.navbar h2 {
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 30px;
+  color: rgb(237, 97, 97);
+}
+
+.navbar h2:hover {
+  color: rgb(155, 154, 154);
+}
+
+:link{
+  text-decoration: none;
+}
+
+.navbar i {
+  font-size: 28px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: rgb(254, 254, 157);
+}
+
+.product__number {
+  color: rgb(0, 0, 0);
+  padding-right: 5px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.navbar i:hover {
+color: rgb(155, 154, 154);
+}
+
+@media (max-width: 600px){
+  .navbar h2 {
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .navbar i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+}
