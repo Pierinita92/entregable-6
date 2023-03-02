@@ -13,11 +13,11 @@ h3, h4, i, div, button, p, span, input {
   display: grid;
   place-content: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
  }
 
  .login__card{
-  margin-bottom: 300px;
+  margin-bottom: 280px;
  }
 
 .user{
@@ -126,7 +126,7 @@ body {
 .bb {
   width: 200px;
   height: 200px;
-  margin: 470px auto;
+  margin: 430px auto;
   border-radius: 10px;
   color: #a1b0f5;
   color: rgb(237, 97, 97);
@@ -163,6 +163,10 @@ body {
 
 
 @media (max-width: 600px) {
+  .login__container {
+    margin-top: 60px;
+   }
+
   .login__title {
     font-size: 16px;
     margin-bottom: 10px;
@@ -181,7 +185,7 @@ body {
   .bb {
     width: 200px;
     height: 200px;
-    margin: 420px auto;
+    margin: 345px auto;
     border-radius: 10px;
   }
 
